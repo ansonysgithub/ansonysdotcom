@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body{
+      margin: 0;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  .left-intro{
+      margin: 255px 45px 45px;
+  }
+  .right-intro{
+      margin: 45px 45px 45px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer{
+      position: absolute;
+      bottom: 0;
+      height: 5em;
+      background-color:rgb(51, 51, 51);
+      width: 100%;
+      margin: 0;
+      
+  }
+
+  .footer p{
+    color: white !important;
+    text-align: center;
+  }
+
+  .footer p a{
+    color: rgb(109, 176, 233) !important;
+    border: none;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .responsive{
+      width: 100%;
+      height: auto;
+  }
+
+/* TEAM MEMBER NAME */
+h1{
+    font-size: 3.75em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    width: 60%;
+    margin: 45px auto 45px;
+}
+
+/* MEMBER 80% TITLE */
+h4{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.25em;
+    margin: 15px 0;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin: 20px 0;
+    font-weight: 350;
+}
+
+.learn-more{
+    text-decoration: none;
+    border-style: none none solid;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 20px;
+    font-weight: 700;
+    padding: 0;
+    color:black;
+}
