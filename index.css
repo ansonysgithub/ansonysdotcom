@@ -1,10 +1,9 @@
 * {
-    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
   }
 
   body{
-      margin: 0;
+      margin: auto;
   }
   
   /* Create three equal columns that floats next to each other */
@@ -12,14 +11,6 @@
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
-
-  .left-intro{
-      margin: 255px 45px 45px;
-  }
-  .right-intro{
-      margin: 45px 45px 45px;
   }
   
   /* Clear floats after the columns */
@@ -30,18 +21,14 @@
   }
 
   .footer{
-      position: absolute;
-      bottom: 0;
       height: 5em;
       background-color:rgb(51, 51, 51);
-      width: 100%;
-      margin: 0;
-      
   }
 
   .footer p{
     color: white !important;
     text-align: center;
+    text-justify: newspaper;
   }
 
   .footer p a{
@@ -84,6 +71,9 @@ p{
     line-height: 1.8;
     margin: 20px 0;
     font-weight: 350;
+    padding: 15px;
+    text-align: justify;
+
 }
 
 .learn-more{
