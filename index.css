@@ -8,15 +8,11 @@ body {
   padding: 10px;
 }
 
-/* Create three equal columns that floats next to each other */
-
 .column {
   float: left;
   width: 100%;
   margin-bottom: 5%;
 }
-
-/* Clear floats after the columns */
 
 .row:after {
   content: "";
@@ -24,60 +20,22 @@ body {
   clear: both;
 }
 
-.footer {
-  height: 5em;
-  background-color: rgb(51, 51, 51);
-}
-
-.footer p {
-  color: white !important;
-  text-align: center;
-  text-justify: newspaper;
-}
-
-.footer p a {
-  color: rgb(109, 176, 233) !important;
-  border: none;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 600px) {
-  body {
-    width: 100%;
-    padding: none;
-  }
-  .column {
-    width: 100%;
-  }
-}
-
-.responsive {
-  width: 100%;
-  height: auto;
-}
-
-/* TEAM MEMBER NAME */
-
 h1 {
   font-size: 3.75em;
   font-weight: 700;
   letter-spacing: 2px;
-  width: 60%;
+  width: 80%;
   margin: 45px auto 45px;
 }
-
-/* MEMBER 80% TITLE */
 
 h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.25em;
-  margin: 15px 0;
 }
 
-p {
+h2+p {
   font-size: 1.5rem;
   line-height: 1.8;
   margin: 20px 0;
@@ -89,10 +47,60 @@ p {
 .learn-more {
   text-decoration: none;
   border-style: none none solid;
-  margin-left: 0;
-  margin-right: auto;
-  margin-top: 20px;
   font-weight: 700;
-  padding: 0;
   color: black;
+}
+
+.footer {
+  height: 5em;
+  background-color: rgb(51, 51, 51);
+  margin: 20px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  font-weight: 350;
+  padding: 15px;
+}
+
+.footer p a {
+  color: white;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  body {
+    width: 100%;
+    padding: none;
+  }
+
+  .learn-more {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    border: none;
+  }
+
+  .column {
+    width: 90%;
+  }
+
+  .footer {
+    width: 80%;
+  }
 }
