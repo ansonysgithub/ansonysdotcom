@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is my personal portfolio website built with HTML, CSS, and JavaScript, bundled using Webpack, and deployed on Netlify.
+This is my personal portfolio website built with HTML, CSS, and JavaScript, managed with npm for package handling, bundled using Webpack, and deployed on Netlify.
 
 ## Live Demo
 
@@ -12,6 +12,7 @@ You can view the live website [here](https://ansonys.com/).
 - CSS
 - JavaScript
 - Webpack
+- NPM
 
 ## Getting Started
 
